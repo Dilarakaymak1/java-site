@@ -1,0 +1,84 @@
+/* Genel Sayfa Ayarları */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #A33800, #00B9B2);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Ana kutu */
+.container {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  width: 420px;
+  transition: transform 0.3s ease, background 0.3s ease;
+	background-color:#46A69F;}
+
+.container:hover {
+  transform: scale(1.02);
+	background:#028883;}
+
+/* Başlık */
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Etiketler */
+label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Input ve Textarea */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+input:focus, textarea:focus {
+  border-color: #66a6ff;
+  box-shadow: 0 0 8px rgba(102,166,255,0.5);
+  outline: none;
+}
+textarea {
+  resize: none;
+  height: 120px;
+}
+
+/* Butonlar */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #66a6ff;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+button:hover {
+  background: #4a8fe2;
+}
+
+/* Sayfa geçişleri */
+.hidden {
+  display: none;
+}
